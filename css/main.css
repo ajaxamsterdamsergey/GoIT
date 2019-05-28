@@ -1,0 +1,97 @@
+html {
+    box-sizing: border-box;
+}
+*,
+*::before ,
+*::after {
+     box-sizing: inherit
+}
+body {
+    color: #626262;
+font-family: "Playfair Display";
+font-size: 14px;
+line-height: 24px;
+}
+.page-header {
+    width: 1200px;
+    margin: 0 auto;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.nav-menu {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    list-style: none;
+}
+.nav-menu a{
+    color: #626262;
+font-family: "Playfair Display";
+font-weight: 400;
+line-height: 24px;
+text-transform: uppercase;
+text-decoration: none;
+}
+.nav-menu a:hover ,
+.nav-menu a:focus {
+    color: #03a9f4
+}
+.nav-menu li {
+    display: inline-block;    
+}
+.nav-menu_item_lifestyle {
+    margin: 77px 121px 99px 313px;
+}
+.nav-menu_item_photodiary {
+    margin: 77px 103px 99px 0px;
+}
+.nav-menu_item_music {
+    margin: 77px 95px 99px 0px ;
+}
+.nav-menu_item_travel {
+    margin: 77px 298px 99px 0px;
+}
+.card {
+    display: inline-block;
+    width: 420px;
+    margin-right: 60px;
+}
+.cards {
+    display: inline-block;
+    margin-left: 150px;
+}
+.list_style {
+    width: 63px;
+height: 11px;
+color: #b4ad9e;
+font-family: Ubuntu;
+font-size: 14px;
+font-weight: 300;
+text-transform: uppercase;
+}
+.load_button {
+    border: none;
+    margin: 0;
+    padding: 19px 34px;
+    min-width: 190px;
+height: 60px;
+background-color: #fff;
+border: 1px solid #626262;
+font-family: "Playfair Display";
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+text-transform: uppercase;
+color: #626262;;
+cursor: pointer;
+}
+.button-box {
+    margin: 68px 551px 90px 509px;
+}
