@@ -1,0 +1,240 @@
+html{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit
+}
+.clearfix::after{
+    clear: both;
+    display: table;
+    content: "";
+}
+.container {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+    padding:0 29px ;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+header {
+    height: 21px;
+    margin-top: 38px;
+    width: 100%;
+}
+.logo{
+    margin: 0;
+    float: left;
+    color: #555252;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 32px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 300px;
+    letter-spacing: -0.6px;
+}
+.logo::first-letter {
+    color: #1abc9c;
+    font-family: "Roboto - black";
+    font-weight: 400px;
+    letter-spacing: -0.6px;
+}
+.nav-menu{
+    float: right;
+    margin-top: 8px;
+}
+.site-navigation {
+    margin: 0;
+    width: 467px;
+    float: right;
+    list-style: none;
+}
+.navigation-item{
+    float: left;
+    margin-right: 21px;
+}
+.navigation-item :last-child{
+    margin-right: 0;
+}
+.link_item{
+    color: #0f0101;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 11px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: -0.28px;
+} 
+.link_item:hover, 
+.link_item:focus{
+    color: #1abc9c;
+}
+
+
+.title{margin-top: 115px;
+    display: block;
+    margin-top: 0;
+    text-align:center;
+    color: #515151;
+    font-family: "Roboto - Black";
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 32px;
+    text-transform: uppercase;
+    letter-spacing: -0.96px;
+}
+.title ::after {
+    margin: 32px auto 90px;
+    width: 164px;
+    height: 7px;
+    background-color: #1abc9c;
+    display: block;
+    text-align: center;
+    content: "";
+}
+.title{
+    margin-top: 115px;
+    display: block;
+    text-align: center;
+    color: #515151;
+    font-family: "Roboto - Black";
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 32px;
+    text-transform: uppercase;
+    letter-spacing: -0.96px;
+}
+.title::after{
+    margin: 32px auto 90px;
+    width: 164px;
+    height: 7px;
+    background-color: #1abc9c;
+    display: block;
+    text-align: center;
+    content: "";
+}
+.products{
+    margin-top: 113px;
+}
+.product{
+    display: inline-block;
+    vertical-align: top;
+    width: 255px;
+    height: 264px;
+    margin-right: 30px;
+    margin-bottom: 88px;
+
+}
+.product:nth-child(4n+1){
+    margin-right: 0;
+}
+.product:nth-child(-n+4){
+    margin-bottom: 30;
+}
+.products{
+    font-size: 0;
+}
+.background_product{
+    height: 282px;
+    background-color: #e9f0fd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.product_info{
+    display: inline-block;
+    width: 255px;
+    height: 40px;
+    vertical-align: bottom;
+    background-color: #323232;
+    font-size: 0;
+}
+.product_name,
+.price{
+    display: inline-block;
+    color: #ffffff;
+    font-family: "Roboto - Black";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    text-transform: uppercase;
+    letter-spacing: -0.36px;
+}
+.product_name{
+    width: 200px;
+    padding: 0 14px;
+}
+.price{
+    width: 55px;
+    height: 40px;
+    padding: 0 10px;
+    background-color:rgba(255, 255, 255, 0.44);
+}
+.product:hover .product_info{
+    background-color: #1abc9c;
+}
+.new{
+    display: inline-block;
+    width: 346px;
+    height: 261px;
+    vertical-align: top;
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
+.new:last-child{
+    margin-right: 0px;
+}
+.news_name{
+    width: 301px;
+    height: 44px;
+    color: #555252;
+    font-family: "Open Sans - Semibold";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: -0.36px;
+}
+.news_name::after{
+    margin: 11px 0 29px ;
+    width: 136px;
+    height: 3px;
+    display: block;
+    background-color: #4ec6ab;
+    content: "";
+}
+.text{
+    margin-top: 43px;
+    color: #555252;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: -0.28px;
+}
+.load{
+    width: 160px;
+    height: 51px;
+    background-color: #4ec6ab;
+    border: 0;
+    border-radius: 4px
+}
+.link{
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 26px;
+    letter-spacing: -0.32px;
+    text-decoration: none;
+}
