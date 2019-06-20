@@ -1,0 +1,332 @@
+html{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    width: 1600px;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit
+}
+.clearfix::after{
+    clear: both;
+    display: table;
+    content: "";
+}
+.container {
+    max-width: 1600px;
+    width: 100%;
+    margin: 0 auto;
+    padding:0 px ;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+.clearfix:{
+    height: 21px;
+    margin-top: 38px;
+    width: 1600px;
+}
+.company{
+    margin: 0;
+    margin-left: 245px;
+    float: left;
+    color: #555252;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: lighter;
+    line-height: 32px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: -0.6px;
+}
+.company::first-letter {
+    color: #1abc9c;
+    font-family: "Roboto - black";
+    font-weight: lighter;
+    letter-spacing: -0.6px;
+}
+.nav-menu{
+    float: right;
+    margin-top: 8px;
+    margin-right: 245px;
+}
+.site-navigation {
+    margin: 0;
+    float: right;
+    list-style: none;;
+}
+.navigation-item{
+    float: left;
+    margin-right: 21px;
+}
+.navigation-item :last-child{
+    margin-right: 0;
+}
+.link_item{
+    color: #0f0101;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 11px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: -0.28px;
+} 
+.link_item:hover, 
+.link_item:focus{
+    color: #1abc9c;
+}
+.slider{
+    position: relative;
+    width: 1600px;
+    height: 600px;
+    margin-top: 38px;;
+}
+.slider_button_prev, .slider_button_next{
+    position: absolute;
+    display: inline-block;
+    border: none;
+    width: 104px;
+    height: 104px;
+    background-color: #1abc9c;
+    z-index: 4;
+}
+.slider_button_prev{
+    left: 240px;
+    top: 230px;
+}
+.slider_button_next{
+    right: 240px;
+    top: 230px;
+}
+.simbol{
+    vertical-align: middle;
+    width: 22px;
+    height: 38px;
+    color: #ffffff;
+    font-family: "Pe -icon -7-stroke";
+    font-size: 100px;
+    font-weight: 400;
+    line-height: 11px;
+    text-transform: uppercase;
+}
+.sliders{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 0;
+}
+.sliders img{
+    height: 600px;
+    width: 100%;
+    object-fit:cover;
+}
+.name-tour{
+    padding: 0;
+    color: #ffffff;
+    font-family: "Roboto - Black";
+    font-size: 60px;
+    letter-spacing: -1.2px;
+    text-transform: uppercase;
+    z-index: 4;
+}
+.name-tour{
+    position: absolute;
+    top: 215px;
+    left: 430px;
+
+}
+.service-tour{
+    color: #ffffff;
+font-family: Roboto;
+font-size: 24px;
+text-transform: uppercase;
+z-index: 2;
+}
+.service-tour{
+    position: absolute;
+    top : 293px;
+    left: 430px;
+}
+.wooman{
+    position: absolute;
+}
+.black{
+    position: absolute;
+}
+.opasity{
+    position: absolute;
+    opacity: 0.52;
+    z-index: 3;
+}
+.collection{
+    background-color: #e9f0fd;
+    width: 1600px;
+    height: 676px;
+}
+h2{
+    margin: 0;
+    padding: 100px 580px 120px 580px;
+    color: #515151;
+font-family: "Roboto - Black";
+font-size: 48px;
+font-weight: 400px;
+line-height: 32px;
+text-transform: uppercase;
+letter-spacing: -0.96px;
+}
+h2::after{
+    margin: 32px auto 0;
+    width: 164px;
+    height: 7px;
+    background-color: #1abc9c;
+    display: block;
+    text-align: center;
+    content: "";
+}
+.new_collection{
+    margin-left: 245px;
+}
+.product{
+    width: 255px;
+    height: 322px;
+    margin-right: 30px;
+    float: left;
+
+}
+.collection{
+    font-size: 0;
+}
+.background_product{
+    position: relative;
+    height: 282px;
+    background-color: #e9f0fd;
+    text-align: center;
+    line-height: 282px;
+}
+.product_info{
+    position: relative;
+    display: inline-block;
+    width: 255px;
+    height: 40px;
+    vertical-align: bottom;
+    background-color: #323232;
+    font-size: 0;
+}
+.product_name,
+.price{
+    display: inline-block;
+    color: #ffffff;
+    font-family: "Roboto - Black";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 40px;
+    height: 40px;
+    text-transform: uppercase;
+    letter-spacing: -0.36px;
+}
+.product_name{
+    width: 200px;
+    padding: 0 14px;
+}
+.price{
+    width: 55px;
+    height: 40px;
+    padding: 0 10px;
+    background-color:rgba(255, 255, 255, 0.44);
+}
+.product:hover .product_info{
+    background-color: #1abc9c;
+}
+.footer{
+    position: relative;
+    width: 1600px;
+    height: 88px;
+    background-color: #323232;
+}
+.text_footer{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fefefe;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: lighter;
+    line-height: 28px;
+    letter-spacing: -0.32px;
+}
+.product_hover{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    bottom: 10px;
+    left: 10px;
+    background-color: rgba(0, 0, 0, 0.55);
+    opacity: 0;
+}
+
+.product_hover:hover {
+    opacity: 1;
+}
+.product_icon{
+    position: absolute;
+    width: 200px;
+    height: 120px;
+    top: 70px;
+    left: 34px;
+    z-index: 2;
+}
+.heart{
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid #ffffff;
+    width: 50px;
+    height: 50px;
+   background-image: url(../images_button/BUTTON.png);
+   z-index: 3;
+}
+.lines{
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid #ffffff;
+    left: 60px;
+    width: 50px;
+    height: 50px;
+   background-image: url(../images_button/BUTTON_copy.png);
+   z-index: 3;
+}
+.clock{
+    position: absolute;
+    left: 120px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid #ffffff;
+    width: 50px;
+    height: 50px;
+   background-image: url(../images_button/BUTTON_copy_2.png);
+   z-index: 3;
+}
+.cart{
+    position: absolute;
+    top: 58px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid #ffffff;
+    width: 166px;
+    height: 50px;
+    background-color: #323232;
+   background-image: url(../images_button/BUTTON_copy_3.png);
+   z-index: 3;
+} 
+.some_text{
+    color: #1abc9c;
+}
