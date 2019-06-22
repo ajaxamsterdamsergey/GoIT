@@ -4,7 +4,6 @@ html{
 body{
     margin: 0;
     padding: 0;
-    width: 1600px;
 }
 *,
 *::before,
@@ -17,20 +16,23 @@ body{
     content: "";
 }
 .container {
-    max-width: 1600px;
-    width: 100%;
     margin: 0 auto;
-    padding:0 px ;
 }
 img{
     max-width: 100%;
     height: auto;
     vertical-align: middle;
 }
-.clearfix:{
+header {
     height: 21px;
-    margin-top: 38px;
-    width: 1600px;
+    margin-top: 30px;
+    width: 100%;
+}
+.clearfix:{
+  max-width: 1600px;
+  padding: 0 30px;
+  width: 100%;
+  margin: 0 auto;
 }
 .company{
     margin: 0;
