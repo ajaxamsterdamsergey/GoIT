@@ -157,14 +157,12 @@ h2 {
 .Security::before {
   background-image: url(../img/icons/Icon-Locked.png);
 }
-.contact {
-  max-width: 1400px;
-  background-image: url(../img/Background.png);
-}
+
 .background {
+  background-color: #222;
   background-image: url(../img/Map_Image.png);
   background-repeat: no-repeat;
-  background-position: right bottom + 20px;
+  background-position: right bottom +30px;
 }
 .contact_title {
   padding-top: 110px;
