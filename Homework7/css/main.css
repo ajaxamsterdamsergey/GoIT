@@ -9,34 +9,33 @@
   font-family: "Marck-script";
   src: url(../fonts/marck-script-v9-latin-regular.woff) format("woff"),
     url(../fonts/marck-script-v9-latin-regular.woff2) format("woff2");
-  font-weight: 400;
+  font-weight: normal;
 }
 @font-face {
   font-family: "Montserrat";
   src: url(../fonts/montserrat-v13-latin-regular.woff) format("woff"),
     url(../fonts/montserrat-v13-latin-regular.woff2) format("woff2");
-  font-weight: 400px;
+  font-weight: normal;
 }
 @font-face {
   font-family: "Montserrat";
   src: url(../fonts/montserrat-v13-latin-700.woff) format("woff"),
     url(../fonts/montserrat-v13-latin-700.woff2) format("woff2");
-  font-weight: 700;
+  font-weight: bold;
 }
 @font-face {
   font-family: "Droid-Serif";
   src: url(../fonts/DroidSerif-Italic.woff) format("woff");
-  font-weight: 400;
+  font-weight: normal;
   font-style: italic;
 }
 @font-face {
   font-family: "Roboto Slab";
   src: url(../fonts/roboto-slab-v8-latin-regular.woff) format("woff"),
     url(../fonts/roboto-slab-v8-latin-regular.woff2) format("woff2");
-  font-weight: 400;
+  font-weight: normal;
 }
 .wrapper {
-  max-width: 1400px;
   width: 100%;
   margin: 0 auto;
 }
@@ -48,9 +47,8 @@
 }
 .site_logo {
   color: #222;
-  font-family: "Marck-script";
+  font-family: "Marck-script",sans-serif;
   font-size: 26px;
-  font-weight: 400;
   line-height: 40px;
   letter-spacing: 1.3px;
   text-decoration: none;
@@ -68,9 +66,9 @@
 }
 .nav-menu_link {
   text-decoration: none;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   font-size: 14px;
-  font-weight: 700;
+  font-weight: bold;
   line-height: 14px;
   text-transform: uppercase;
   color: #222;
@@ -95,18 +93,18 @@
   align-items: center;
 }
 h2 {
-  color: #222222;
-  font-family: "Montserrat";
+  color: #222;
+  font-family: "Montserrat", sans-serif;
   font-size: 40px;
-  font-weight: 700;
+  font-weight: bold;
   line-height: 75px;
   text-transform: uppercase;
   letter-spacing: -1px;
 }
 .subtitle {
   padding: 20px 0;
-  color: #777777;
-  font-family: "Droid Serif";
+  color: #777;
+  font-family: "Droid-Serif", sans-serif;
   font-size: 16px;
   font-style: italic;
 }
@@ -122,10 +120,10 @@ h2 {
 }
 .service_name {
   margin-bottom: 10px;
-  color: #222222;
-  font-family: "Montserrat";
+  color: #222;
+  font-family: "Montserrat", sans-serif;
   font-size: 18px;
-  font-weight: 700;
+  font-weight: bold;
   line-height: 75px;
   letter-spacing: -0.45px;
 }
@@ -137,16 +135,16 @@ h2 {
   width: 67px;
   height: 67px;
   border: 3px solid #fed136;
-  background-color: #ffffff;
+  background-color: #fff;
   border-radius: 50%;
   background-repeat: no-repeat;
   background-position: center;
 }
 .service_info {
-  color: #777777;
-  font-family: "Roboto Slab";
+  color: #777;
+  font-family: "Roboto Slab", sans-serif;
   font-size: 14px;
-  font-weight: 700px;
+  font-weight: bold;
 }
 .E-Commerce::before {
   background-image: url(../img/icons/Icon-Basket.png);
@@ -167,18 +165,18 @@ h2 {
 .contact_title {
   padding-top: 110px;
   text-align: center;
-  color: #ffffff;
-  font-family: "Montserrat";
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
   font-size: 40px;
-  font-weight: 700;
+  font-weight: bold;
   text-transform: uppercase;
   letter-spacing: -1px;
 }
 .contact_subtitle {
   padding-top: 20px;
   text-align: center;
-  color: #777777;
-  font-family: "Droid Serif";
+  color: #777;
+  font-family: "Droid-Serif", sans-serif;
   font-size: 16px;
   font-style: italic;
 }
@@ -209,8 +207,8 @@ h2 {
 
 input {
   height: 50px;
-  border: 1px solid #cccccc;
-  background-color: #ffffff;
+  border: 1px solid #ccc;
+  background-color: #fff;
 }
 
 input:invalid:focus,
@@ -228,9 +226,9 @@ textarea::placeholder,
 input,
 textarea {
   color: #bbb;
-  font-family: " Montserrat";
+  font-family: " Montserrat", sans-serif;
   font-size: 14px;
-  font-weight: 700;
+  font-weight: bold;
   text-transform: uppercase;
   letter-spacing: -0.35px;
 }
@@ -251,10 +249,10 @@ textarea {
   height: 66px;
   background-color: #fed136;
   line-height: 66px;
-  color: #ffffff;
-  font-family: "Montserrat";
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
   font-size: 18px;
-  font-weight: 700;
+  font-weight: bold;
   text-transform: uppercase;
   border: none;
   border-radius: 5px;
