@@ -45,7 +45,7 @@
   justify-content: space-evenly;
   align-items: center;
 }
-.site_logo {
+.name_company {
   color: #222;
   font-family: "Marck-script",sans-serif;
   font-size: 26px;
@@ -79,8 +79,8 @@
   color: #fed136;
   cursor: pointer;
 }
-.site_logo:hover,
-.site_logo:focus {
+.name_company:hover,
+.name_company:focus {
   color: #fed136;
   cursor: pointer;
 }
