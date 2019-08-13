@@ -335,7 +335,7 @@ line-height: 24px;
  
 }
 .icons__item .item__icon-facebook {
-  width: 26px;
+  width: 12px;
   height: 26px;
 }
 .icons__item .item__icon-twitter {
@@ -367,8 +367,7 @@ line-height: 24px;
 .icons__item:last-child {
   border: none;
 }
-  .item__icon-instagram{
-    background-image: url(../img/icons/instagram.svg);
+ 
   }
 .footer {
   display: flex;
