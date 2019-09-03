@@ -1,0 +1,37 @@
+.item-link {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.item__link {
+  position: relative;
+  color: $header-font-color;
+  font-family: $main-font-stack;
+  font-size: 14px;
+  line-height: 1;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  &:hover,
+  &:focus {
+    outline: none;
+    color: #fce38a;
+
+    &::after {
+      left: 0;
+      width: 100%;
+    }
+  }
+  &::after {
+    content: '';
+    display: block;
+    position: absolute;
+    margin-top: 8px;
+    left: 50%;
+    width: 0;
+    height: 3px;
+    background-color: #fce38a;
+    color: #fce38a;
+  }
+}

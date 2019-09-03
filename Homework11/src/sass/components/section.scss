@@ -1,0 +1,38 @@
+.section {
+  padding: 46px 0;
+}
+.section-pre__subtitle {
+  color: $heading-font-color;
+  font-family: $pre-heading-font;
+  font-size: 24px;
+  font-weight: 400;
+}
+.section-pre {
+  margin: 0 auto;
+  text-align: center;
+}
+.section-pre__title {
+  margin-top: 20px;
+  color: $heading-font-color;
+  font-family: $main-font-stack;
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.section-pre__title::after {
+  margin: 42px auto;
+  content: '';
+  display: block;
+  width: 60px;
+  height: 3px;
+  background-color: #f38181;
+}
+.section-services__list {
+  margin: 0;
+  padding: 0;
+  margin-top: 66px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  list-style-type: none;
+}

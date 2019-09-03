@@ -1,0 +1,48 @@
+.icons__item {
+  width: 56px;
+  height: 56px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fce38a;
+  opacity: 0;
+  border-right: 1px solid rgba(243, 129, 129, 0.5);
+  background-position: center;
+  background-repeat: no-repeat;
+  fill: #f38181;
+
+  &:last-child {
+    border: none;
+  }
+
+  &:hover {
+    fill: $header-font-color;
+  }
+}
+.icons__item .item__icon-facebook {
+  width: 12px;
+  height: 26px;
+}
+.icons__item .item__icon-twitter {
+  width: 26px;
+  height: 22px;
+}
+.icons__item .item__icon-pinterest {
+  width: 20px;
+  height: 26px;
+}
+.icons__item .item__icon-instagram {
+  width: 26px;
+  height: 26px;
+}
+
+.cards__item--hover:hover .icons__item,
+.cards__item--hover:focus .icons__item {
+  opacity: 1;
+  transition: all 0.2s linear;
+}
+.icons__item--hover:hover,
+.icons__item--hover:focus {
+  background-color: #f38181;
+  transition: all 0.2s linear;
+}

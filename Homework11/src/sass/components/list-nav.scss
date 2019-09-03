@@ -1,0 +1,18 @@
+.list-nav {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+
+  .item__icon {
+    height: 18px;
+    width: 18px;
+    cursor: pointer;
+    fill: $header-font-color;
+  }
+}
+.list-nav .item__icon--hover:hover {
+  fill: #fce38a;
+  transition: 0.2s all linear;
+}

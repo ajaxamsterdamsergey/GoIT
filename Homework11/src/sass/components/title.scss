@@ -1,0 +1,38 @@
+.main__subtitle {
+  margin-top: 0;
+  color: $header-font-color;
+  font-family: $pre-heading-font;
+  font-size: 72px;
+  font-weight: 400;
+}
+.main__title {
+  margin-top: 10px;
+  color: $header-font-color;
+  font-family: $main-font-stack;
+  font-size: 150px;
+  font-weight: 700;
+  line-height: 140px;
+  text-transform: uppercase;
+}
+.main__button {
+  margin-top: 0px;
+  width: 160px;
+  height: 40px;
+  border: 3px solid $header-font-color;
+  color: $header-font-color;
+  background-color: transparent;
+  cursor: pointer;
+  font-family: $main-font-stack;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.text {
+  margin: 36px auto 82px;
+  width: 954px;
+  color: $text-color;
+  font-family: $text-font-stack;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+}

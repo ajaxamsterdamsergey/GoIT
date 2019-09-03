@@ -1,0 +1,35 @@
+.form {
+  display: flex;
+  align-items: center;
+}
+
+.form__input {
+  width: 230px;
+  height: 40px;
+  border: 1px solid #e7e7e7;
+  background-color: $header-font-color;
+  padding: 14px;
+}
+
+.form__input::placeholder,
+.form__input {
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 24px;
+  color: #ccc;
+  font-family: $text-font-stack;
+  font-style: italic;
+}
+
+.form__button {
+  width: 150px;
+  height: 40px;
+  background-color: #95e1d3;
+  border: none;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: $main-font-stack;
+  text-transform: uppercase;
+  color: $header-font-color;
+  cursor: pointer;
+}

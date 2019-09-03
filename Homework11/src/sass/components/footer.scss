@@ -1,0 +1,18 @@
+.footer {
+  height: 62px;
+  border-top: 1px solid #e5e5e5;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer__some-text,
+.footer__name {
+  font-family: $main-font-stack;
+  font-size: 14px;
+  font-weight: 400;
+  color: #000;
+}
+
+.footer__name {
+  color: #f38181;
+}
