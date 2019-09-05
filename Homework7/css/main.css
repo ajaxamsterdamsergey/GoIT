@@ -76,7 +76,7 @@
 }
 .nav-menu_link:hover,
 .nav-menu_link:focus {
-  color: #fed136;
+  color: main-text;
   cursor: pointer;
 }
 .name_company:hover,
